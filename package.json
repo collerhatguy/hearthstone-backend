@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "axios": "^0.22.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  },
+  "name": "hearthstone-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collerhatguy/hearthstone-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collerhatguy/hearthstone-backend/issues"
+  },
+  "homepage": "https://github.com/collerhatguy/hearthstone-backend#readme",
+  "description": ""
+}

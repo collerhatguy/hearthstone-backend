@@ -23,7 +23,6 @@ const getData = async () => {
     }
 }
 
-
 setInterval(getData, 1000 * 60 * 60 * 24)
 
 server.get("/", (req, res) => {

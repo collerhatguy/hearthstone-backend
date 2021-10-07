@@ -1,4 +1,5 @@
 const express = require("express")
+const cors = require("cors")
 const useApi = require("./service")
 const helpers = require("./helpers")
 const fs = require("fs")
@@ -6,6 +7,8 @@ const expansionData = require("./data.json")
 
 const server = express()
 
+server.use(express.json())
+server.use(cors())
 
 const getData = async () => {
     try {
